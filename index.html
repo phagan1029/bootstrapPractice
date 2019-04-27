@@ -29,15 +29,75 @@
 	<!--start body element -->
 	<body>
 	
-		<div>
-			<h1>Welcome to my site</h1>
-			 <p>Please take a look around!</p>
-			 <button>Click here to learn more.</button>
+	<nav class="navbar navbar-expand-sm navbar-light" 
+	style="background-color: #e3f2fd;">
+		<div class="container">
+  <a class="navbar-brand" href="#">Navbar</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="https://getbootstrap.com/docs/4.3/components/buttons/">Buttons<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://getbootstrap.com/docs/4.3/components/dropdowns/">DropDowns</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://getbootstrap.com/docs/4.3/components/carousel/">Carousels</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Dropdown link
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="https://getbootstrap.com/docs/4.3/components/popovers/">Popovers</a>
+          <a class="dropdown-item" href="https://getbootstrap.com/docs/4.3/components/media-object/">Media Objects</a>
+          <a class="dropdown-item" href="https://getbootstrap.com/docs/4.3/components/toasts/">Toasts</a>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
+</nav>
 
-			<!--  <img class="animated bounce infinite" src="img/row4.jpg" alt="Rowing"> -->
+<div class="jumbotron">
+  <h1 class="display-4">Hello Fellow Coders!</h1>
+  <p class="lead">Bootstrap is a very simple way to use code that has already been created and tested to make your websites stand out.</p>
+  <hr class="my-4">
+  <p>It is very useful for making responsive, clean websites.</p>
+  <a class="btn btn-primary btn-lg" href="https://getbootstrap.com/docs/4.3/components/jumbotron/" role="button">Learn more about Jumbotrons!</a>
+</div>
+
+
+<div class="container-fluid text-center mx auto">
+	<div class="row pb-5" id="myPhotos">
+		<div class="col-12 col-sm-6 col-md-4">
+			<img class="w-100"src="img/Broadway.jpg" alt="Broadway">
+			<h2 class="h4 py-3 font-weight-normal">Faith Haven</h2>
+			<a class="btn btn-outline-secondary my-5" href="http://faithhavenstables.com/" target="_blank" role="button">Learn More</a>
+			
+
 		</div>
+		<div class="col-12 col-sm-6 col-md-4">
+			<img class="w-100" src="img/row4.jpg" alt="rowing">
+			<h2 class="h4 py-3 font-weight-normal">Crossfit Dunkirk</h2>
+			<a class="btn btn-outline-primary my-5" href="https://cfdunkirk.com/" target="_blank" role="button">Learn More</a>
 
-		<button type="button" class="btn btn-info">CLick Me</button>
+		</div>
+		<div class="col-12 col-sm-6 col-md-4">
+			<img class="w-100" src="img/IMG_2169.jpg" alt="Latte">
+			<h2 class="h4 py-3 font-weight-normal">9 Lives Holistic</h2>
+			<a class="btn btn-outline-info my-5" href="https://www.facebook.com/9-Lives-Holistic-1944066158999499/" target="_blank" role="button">Learn More</a>
+
+		</div>
+	</div>
+</div>
+
+
+
+
 			
 
 
